@@ -21,7 +21,7 @@ const { chromium } = require("playwright");
   await page.click("#continue"); // click Continue
   await page.click("#ap_change_login_claim"); // click Change
 
-  await page.waitForTimeout(5000); //!remove before submityting
+  await page.waitForTimeout(5000); //!remove
 
   await browser.close();
 })();
